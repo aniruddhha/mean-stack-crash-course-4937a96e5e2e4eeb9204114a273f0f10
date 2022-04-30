@@ -3,7 +3,7 @@ const app = express()
 const PORT = 3000
 
 const mysql      = require('mysql');
-var connection = mysql.createConnection({
+const connection = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
     password : 'root',
